@@ -1,0 +1,38 @@
+fastapi==0.110.2
+uvicorn[standard]==0.29.0
+
+# Base de datos
+sqlalchemy==2.0.30
+psycopg2-binary==2.9.9
+alembic==1.13.1
+
+# Validación y modelos
+pydantic==2.7.1
+pydantic-settings==2.2.1
+
+# Templates
+jinja2==3.1.3
+python-multipart==0.0.9
+
+# Seguridad
+passlib[bcrypt]==1.7.4
+python-jose[cryptography]==3.3.0
+
+# Entorno
+python-dotenv==1.0.1
+
+# Producción (Render)
+gunicorn==21.2.0
+
+# Utilidades
+email-validator==2.1.1
+
+
+# fastapi
+# uvicorn
+# sqlalchemy
+# pydantic
+# python-dotenv
+# psycopg2-binary
+# jinja2
+# python-multipart
