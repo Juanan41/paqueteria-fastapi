@@ -28,7 +28,8 @@ templates = Jinja2Templates(directory="app/templates")
 #     Base.metadata.create_all(bind=engine)Sin RENDEL
 @app.on_event("startup")
 def startup():
-    Base
+    Base.metadata.create_all(bind=engine)
+
     
 
 

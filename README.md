@@ -1657,8 +1657,10 @@ git init
 git add .
 git commit -m "Proyecto listo para producción"
 git branch -M main
-git remote add origin [Juanan41](https://github.com/Juanan41/paqueteria-fastapi.git)
+git remote add origin https://github.com/Juanan41/paqueteria-fastapi.git
 git push -u origin main
+# #Si da error
+git push -u origin main --force
 
 # Si sale esto: remote origin already exists
 
